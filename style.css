@@ -10,7 +10,6 @@
 }
 header{
     height: 105vh;
-    /* background-image: ; */
 }
 a{
     text-decoration: none;
@@ -49,11 +48,21 @@ span{
     border: 1px solid #E7332B;
     padding: 14px 27px;
 }
+.intro .btn1:hover{
+    background-color: white;
+    color: #E7332B;
+    cursor: pointer;
+}
 .intro .btn2{
     background-color: white;
     color: #E7332B;
     border: 1px solid #E7332B;
     padding: 14px 27px;
+}
+.intro .btn2:hover{
+    background-color: #E7332B;
+    color: white;
+    cursor: pointer;
 }
 .mid{
     background-color: white;
@@ -81,7 +90,6 @@ span{
 .level-box{
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
     width: 31%;
 }
 .level-box h4{
@@ -109,6 +117,7 @@ span{
 footer{
     display: flex;
     flex-direction: column;
+    margin-top: 15em;
 }
 .footer-top, .footer-bottom{
     width: 90%;
@@ -117,11 +126,87 @@ footer{
 }
 .footer-top{
     justify-content: space-between;
+    padding-bottom: 5em;
+    border-bottom: 2px solid black;
 }
 .footer-top div{
-    background-color: aqua;
-    width: 20%;
+    display: flex;
+    flex-direction: column;
 }
 .footer-top ul{
     list-style: none;
+    line-height: 200%;
+}
+.contact p, .contact a{
+    line-height: 150%;
+    font-size: 14px;
+    width: 75%;
+    margin-top: 10px;
+}
+.socials div{
+    display: flex;
+    flex-direction: row;
+}
+.socials-img-container{
+    margin-top: 20px;
+}
+.socials-img-container img{
+    width: 20px;
+    margin-right: 10px;
+}
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom h4{
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+@media (max-width:700px) {
+    .intro{
+        width: 95%;
+    }
+    .intro .btn-container{
+        flex-direction: column;
+        width: 40%;
+    }
+    .intro .btn2{
+        margin-top: 25px;
+    }
+    .mid{
+        width: 60%;
+    }
+    .level-box-container{
+        flex-direction: column;
+        width: 95%;
+    }
+    .level-box{
+        width: 100%;
+        background-color: aqua;
+        margin-top: 40px;
+    }
+    .footer-top{
+        width: 95%;
+        text-align: center;
+        flex-direction: column;
+        background-color: aqua;
+    }
+    .footer-top h4{
+        font-size: 25px;
+    }
+    .contact p, .contact a{
+        margin: auto;
+    }
+    .links{
+        margin-top: 20px;
+    }
+    .socials{
+        margin: 20px auto;
+    }
+    .socials h4{
+        margin: auto;
+    }
+    .contact{
+        margin: 40px auto;
+    }
 }
