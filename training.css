@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averta', sans-serif;
+}
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: aqua;
+}
+.header-container a{
+    text-decoration: none;
+    font-size: 19px;
+}
+.header-container .logo{
+    margin: auto 0;
+}
+.header-container .links{
+    margin: auto 0;
+}
+.header-container .links a{
+    margin-left: 50px;
+    color: #514949;
+}
+.header-container .enroll{
+    display: flex;
+}
+.header-container .enroll img{
+    margin: auto;
+    width: 70px;
+    background-color: #E7332B;
+    border-radius: 50%;
+    padding: 10px
+}
+.header-container .enroll a{
+    margin: auto 0;
+    color: white;
+    background-color: #E7332B;
+}
