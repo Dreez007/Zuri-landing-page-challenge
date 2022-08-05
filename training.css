@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    background-color: aqua;
 }
 .header-container a{
     text-decoration: none;
@@ -21,26 +20,82 @@
 }
 .header-container .logo{
     margin: auto 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .header-container .links{
-    margin: auto 0;
+    margin: auto 0 auto 9em;
 }
 .header-container .links a{
     margin-left: 50px;
     color: #514949;
 }
 .header-container .enroll{
+    margin-left: auto;
     display: flex;
+    width: 13.5em;
 }
 .header-container .enroll img{
-    margin: auto;
+    position: absolute;
+    z-index: 1;
+    margin: 5px 5px 5px 5px;
     width: 70px;
     background-color: #E7332B;
     border-radius: 50%;
-    padding: 10px
+    padding: 10px;
 }
 .header-container .enroll a{
-    margin: auto 0;
+    margin: auto 0 auto auto;
     color: white;
     background-color: #E7332B;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+.main1{
+    margin-top: 7em;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #514949;
+}
+.main1 p{
+    font-size: 18px;
+}
+.main1 .first-p{
+    color: #E7332B;
+}
+.main1 h1{
+    width: 45%;
+    margin: 10px auto 0 auto;
+    line-height: 110%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.main1 .second-p{
+    width: 33%;
+    margin: 3em auto 0 auto;
+    color: #514949;
+}
+.main1 button{
+    background-color: #E7332B;
+    color: white;
+    margin: 2em auto 7em auto;
+    font-size: 18px;
+    border: 1px solid #E7332B;
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px;
+}
+.main1 img{
+    position: absolute;
+}
+.main1 .lady-img{
+    width: 20em;
+    z-index: 1;
+    top: 12em;
+    left: 3em;
+    right: ;
+    bottom: ;
 }
