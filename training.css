@@ -82,20 +82,42 @@ main{
 .main1 button{
     background-color: #E7332B;
     color: white;
-    margin: 2em auto 7em auto;
+    margin: 2em auto 9em auto;
     font-size: 18px;
     border: 1px solid #E7332B;
     border-radius: 20px;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 35px 10px 35px;
 }
 .main1 img{
     position: absolute;
 }
 .main1 .lady-img{
+    width: 22em;
+    z-index: 1;
+    top: 17em;
+    left: 5em;
+}
+.main1 .male-img{
     width: 20em;
     z-index: 1;
-    top: 12em;
-    left: 3em;
-    right: ;
-    bottom: ;
+    top: 17em;
+    right: 5em;
+}
+.main1 .male-small-img{
+    width: 3.5em;
+    z-index: 1;
+    top: 35em;
+    left: 27em;
+}
+.main1 .arrow-img{
+    width: 5em;
+    z-index: 1;
+    top: 37em;
+    left: 35em;
+}
+.main1 .line-img{
+    width: 11em;
+    z-index: 2;
+    top: 24em;
+    left: 22em;
 }
