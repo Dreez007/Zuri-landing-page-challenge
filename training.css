@@ -121,3 +121,27 @@ main{
     top: 24em;
     left: 22em;
 }
+.main2{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.main2 h2{
+    width: 40%;
+    text-align: left;
+}
+.main2 .middle{
+    display: flex;
+    flex-direction: column;
+}
+.main2 .middle img{
+    width: 10em;
+}
+.main2 .middle p{
+    margin: auto;
+}
+.main2 .right{
+    width: 34%;
+    font-size: 1.8em;
+    text-align: right;
+}
