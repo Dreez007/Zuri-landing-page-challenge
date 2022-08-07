@@ -11,8 +11,12 @@
 .header-container{
     width: 90%;
     display: flex;
+    background-color: white;
     justify-content: space-between;
-    margin: auto;
+    margin-left: 5%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
 }
 .header-container a{
     text-decoration: none;
@@ -52,12 +56,14 @@
     border-radius: 30px;
 }
 main{
-    width: 90%;
-    margin: auto;
+    width: 100%;
 }
 .main1{
-    margin-top: 7em;
-    width: 100%;
+    position: relative;
+    margin-top: 12em;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     text-align: center;
     border-bottom: 1px solid gray;
 }
@@ -94,35 +100,39 @@ main{
 .main1 .lady-img{
     width: 22em;
     z-index: 1;
-    top: 17em;
-    left: 5em;
+    top: 6em;
+    left: 1.1em;
 }
 .main1 .male-img{
     width: 20em;
     z-index: 1;
-    top: 17em;
-    right: 5em;
+    top: 3em;
+    right: 1em;
 }
 .main1 .male-small-img{
     width: 3.5em;
     z-index: 1;
-    top: 35em;
-    left: 27em;
+    top: 23em;
+    left: 23em;
 }
 .main1 .arrow-img{
     width: 5em;
     z-index: 1;
-    top: 37em;
-    left: 35em;
+    top: 25em;
+    left: 31em;
 }
 .main1 .line-img{
     width: 11em;
     z-index: 2;
-    top: 24em;
-    left: 22em;
+    top: 12em;
+    left: 18.5em;
 }
 .main2{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
+    width: 90%;
     justify-content: space-between;
     border-bottom: 1px solid gray;
 }
@@ -152,6 +162,11 @@ main{
 .main2 .right a{
     color: green;
 }
+.main3{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .main3 p{
     margin-top: 5em;
     color: #E7332B;
@@ -176,4 +191,77 @@ main{
     top: 71em;
     left: 46em;
     z-index: 1;
+}
+.main4{
+    width: 100%;
+    display: flex;
+    background-color: #E7332B;
+}
+.main4 .left{
+    margin-left: 7%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.main4 .left h1{
+    width: 80%;
+    font-size: 40px;
+    color: white;
+}
+.main4 .left p{
+    width: 65%;
+    font-size: 19px;
+    color: white;
+}
+.main4 .left .para2{
+    margin-top: 2.5em;
+}
+.main4 .left button{
+    background-color: white;
+    color: #E7332B;
+    margin-top: 2em;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 35px 10px 35px;
+}
+.main4 .left-bottom{
+    display: grid;
+    grid-template-areas:
+    'a b'
+    'c d'
+    ;
+}
+.main4 .left-bottom .teamwork{
+    grid-area: a;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.main4 .left-bottom .mentorship{
+    grid-area: b;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.main4 .left-bottom .practice{
+    grid-area: c;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.main4 .left-bottom .games{
+    grid-area: d;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.main4 .left-bottom img{
+    width: 3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.main4 .left-bottom p{
+    margin: auto;
 }
