@@ -92,6 +92,7 @@ span{
     display: flex;
     flex-direction: column;
     width: 31%;
+    background-color: #fffafa;
 }
 .level-box h4{
     background-color: white;
@@ -129,7 +130,7 @@ footer{
 .footer-top{
     justify-content: space-between;
     padding-bottom: 5em;
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid #212529;
 }
 .footer-top div{
     display: flex;
@@ -184,14 +185,12 @@ footer{
     }
     .level-box{
         width: 100%;
-        background-color: aqua;
         margin-top: 40px;
     }
     .footer-top{
         width: 95%;
         text-align: center;
         flex-direction: column;
-        background-color: aqua;
     }
     .footer-top h4{
         font-size: 25px;

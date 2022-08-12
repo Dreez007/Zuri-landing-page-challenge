@@ -8,10 +8,16 @@
     box-sizing: border-box;
     font-family: 'Averta', sans-serif;
 }
+header{
+    background-color: #fffdf5;
+}
+body{
+    background-color: #fffdf5;
+}
 .header-container{
     width: 90%;
     display: flex;
-    background-color: white;
+    background-color: #fffdf5;
     justify-content: space-between;
     margin-left: 5%;
     position: fixed;
@@ -119,13 +125,13 @@ main{
     width: 5em;
     z-index: 1;
     top: 25em;
-    left: 31em;
+    right: 31em;
 }
 .main1 .line-img{
     width: 11em;
     z-index: 2;
-    top: 12em;
-    left: 18.5em;
+    top: 12.3em;
+    right: 25em;
 }
 .main2{
     position: relative;
@@ -160,7 +166,7 @@ main{
     padding: 30px 0 30px 0;
 }
 .main2 .right a{
-    color: green;
+    color: #43b97f;
 }
 .main3{
     width: 90%;
@@ -191,6 +197,63 @@ main{
     top: 71em;
     left: 46em;
     z-index: 1;
+}
+.grid-container{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-areas: 
+    'a b c'
+    'd e f'
+    ;
+}
+.grid-container h1{
+    font-size: 60px;
+}
+.grid-container h2{
+    font-size: 36px;
+}
+.grid-container p{
+    font-size: 18px;
+}
+.grid-container img{
+    position: absolute;
+}
+.grid1{
+    grid-area: a;
+    background-color: #e7332b;
+    color: white;
+    border-radius: 15px;
+}
+.grid2{
+    grid-area: b;
+    background-color: white;
+    color: #1b1a20;
+    border-radius: 15px;
+}
+.grid3{
+    grid-area: c;
+    background-color: white;
+    color: #1b1a20;
+    border-radius: 15px;
+}
+.grid4{
+    grid-area: d;
+    background-color: white;
+    color: #1b1a20;
+    border-radius: 15px;
+}
+.grid5{
+    grid-area: e;
+    background-color: white;
+    color: #1b1a20;
+    border-radius: 15px;
+}
+.grid6{
+    grid-area: f;
+    background-color: white;
+    color: #1b1a20;
+    border-radius: 15px;
 }
 .main4{
     width: 100%;
