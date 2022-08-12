@@ -209,51 +209,101 @@ main{
 }
 .grid-container h1{
     font-size: 60px;
+    margin-top: 0.8em;
+    margin-left: 0.6em;
 }
 .grid-container h2{
     font-size: 36px;
 }
 .grid-container p{
     font-size: 18px;
+    width: 80%;
+    margin-top: 2em;
+    margin-left: 2em;
 }
 .grid-container img{
     position: absolute;
+    top: 0;
+    right: 0;
 }
 .grid1{
     grid-area: a;
     background-color: #e7332b;
     color: white;
     border-radius: 15px;
+    position: relative;
+    height: 27em;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid1 h2{
+    width: 40%;
+    margin-top: 0.8em;
+    margin-left: 1em;
 }
 .grid2{
     grid-area: b;
     background-color: white;
     color: #1b1a20;
     border-radius: 15px;
+    position: relative;
+    height: 27em;
+}
+.grid2 h2{
+    width: 50%;
+    margin-top: 0.8em;
+    margin-left: 1em;
 }
 .grid3{
     grid-area: c;
     background-color: white;
     color: #1b1a20;
     border-radius: 15px;
+    position: relative;
+    height: 27em;
+}
+.grid3 h2{
+    width: 50%;
+    margin-top: 0.8em;
+    margin-left: 1em;
 }
 .grid4{
     grid-area: d;
     background-color: white;
     color: #1b1a20;
     border-radius: 15px;
+    position: relative;
+    height: 27em;
+}
+.grid4 h2{
+    width: 50%;
+    margin-top: 0.8em;
+    margin-left: 1em;
 }
 .grid5{
     grid-area: e;
     background-color: white;
     color: #1b1a20;
     border-radius: 15px;
+    position: relative;
+    height: 27em;
+}
+.grid5 h2{
+    width: 50%;
+    margin-top: 0.8em;
+    margin-left: 1em;
 }
 .grid6{
     grid-area: f;
     background-color: white;
     color: #1b1a20;
     border-radius: 15px;
+    position: relative;
+    height: 27em;
+}
+.grid6 h2{
+    width: 50%;
+    margin-top: 0.8em;
+    margin-left: 1em;
 }
 .main4{
     width: 100%;
