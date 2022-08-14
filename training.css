@@ -351,9 +351,22 @@ main{
     display: flex;
     background-color: #E7332B;
     margin-top: 10em;
+    position: relative;
+}
+.arrow3{
+    position:absolute;
+    width: 5em;
+    top: 3em;
+    left: 23em;
+}
+.dotsection{
+    position: absolute;
+    width: 8em;
+    bottom: 2em;
+    left: 2em;
 }
 .main4 .left{
-    margin: 7em 0 3em 7%;
+    margin: 7em 0 9em 7%;
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -433,4 +446,5 @@ main{
 }
 .main4 .right img{
     width: 100%;
+    margin-top: 3.5em;
 }
