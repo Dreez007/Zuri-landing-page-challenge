@@ -10,16 +10,17 @@
 }
 header{
     background-color: #fffdf5;
+    z-index: 3;
+    width: 100%;
 }
 body{
     background-color: #fffdf5;
 }
 .header-container{
-    width: 90%;
+    width: 100%;
     display: flex;
     background-color: #fffdf5;
     justify-content: space-between;
-    margin-left: 5%;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -29,26 +30,27 @@ body{
     font-size: 19px;
 }
 .header-container .logo{
-    margin: auto 0;
+    margin: auto 0 auto 5%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .header-container .links{
-    margin: auto 0 auto 9em;
+    margin: auto 0 auto 2em;
 }
 .header-container .links a{
     margin-left: 50px;
     color: #514949;
 }
 .header-container .enroll{
-    margin-left: auto;
+    margin: auto 5% auto 0;
     display: flex;
     width: 13.5em;
 }
 .header-container .enroll img{
     position: absolute;
     z-index: 1;
-    margin: 5px 5px 5px 5px;
+    top: 6px;
+    right: 13em;
     width: 70px;
     background-color: #E7332B;
     border-radius: 50%;
@@ -198,14 +200,18 @@ main{
     left: 46em;
     z-index: 1;
 }
-.grid-container{
+.grid-div{
+    display: flex;
     width: 90%;
-    margin: 0 auto 0 auto;
+    margin: 4em auto 0 auto;
+}
+.grid-container{
     display: grid;
     grid-template-areas: 
     'a b c'
     'd e f'
     ;
+    gap: 20px;
 }
 .grid-container h1{
     font-size: 60px;
@@ -233,7 +239,12 @@ main{
     border-radius: 15px;
     position: relative;
     height: 27em;
+    margin-top: 1em;
     box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid1:hover{
+    margin-top: 0;
+    transition: 0.3s;
 }
 .grid1 h2{
     width: 40%;
@@ -247,6 +258,12 @@ main{
     border-radius: 15px;
     position: relative;
     height: 27em;
+    margin-top: 1em;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid2:hover{
+    margin-top: 0;
+    transition: 0.3s;
 }
 .grid2 h2{
     width: 50%;
@@ -260,6 +277,12 @@ main{
     border-radius: 15px;
     position: relative;
     height: 27em;
+    margin-top: 1em;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid3:hover{
+    margin-top: 0;
+    transition: 0.3s;
 }
 .grid3 h2{
     width: 50%;
@@ -273,6 +296,12 @@ main{
     border-radius: 15px;
     position: relative;
     height: 27em;
+    margin-top: 1em;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid4:hover{
+    margin-top: 0;
+    transition: 0.3s;
 }
 .grid4 h2{
     width: 50%;
@@ -286,6 +315,12 @@ main{
     border-radius: 15px;
     position: relative;
     height: 27em;
+    margin-top: 1em;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid5:hover{
+    margin-top: 0;
+    transition: 0.3s;
 }
 .grid5 h2{
     width: 50%;
@@ -299,6 +334,12 @@ main{
     border-radius: 15px;
     position: relative;
     height: 27em;
+    margin-top: 1em;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.grid6:hover{
+    margin-top: 0;
+    transition: 0.3s;
 }
 .grid6 h2{
     width: 50%;
@@ -309,20 +350,21 @@ main{
     width: 100%;
     display: flex;
     background-color: #E7332B;
+    margin-top: 10em;
 }
 .main4 .left{
-    margin-left: 7%;
-    width: 40%;
+    margin: 7em 0 3em 7%;
+    width: 35%;
     display: flex;
     flex-direction: column;
 }
 .main4 .left h1{
-    width: 80%;
+    width: 90%;
     font-size: 40px;
     color: white;
 }
 .main4 .left p{
-    width: 65%;
+    width: 75%;
     font-size: 19px;
     color: white;
 }
@@ -339,11 +381,18 @@ main{
     padding: 10px 35px 10px 35px;
 }
 .main4 .left-bottom{
+    display: flex;
+    margin-top: 3em;
+    width: 100%;
+}
+.main4 .left-bottom-grid{
     display: grid;
+    width: 90%;
     grid-template-areas:
     'a b'
     'c d'
     ;
+    gap: 20px;
 }
 .main4 .left-bottom .teamwork{
     grid-area: a;
@@ -377,4 +426,11 @@ main{
 }
 .main4 .left-bottom p{
     margin: auto;
+}
+.main4 .right{
+    width: 50%;
+    margin-left: 0;
+}
+.main4 .right img{
+    width: 100%;
 }
