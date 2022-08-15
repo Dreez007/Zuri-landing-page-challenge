@@ -451,6 +451,7 @@ main{
 .main5{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .main5-p{
     color: #e7332b;
@@ -463,9 +464,15 @@ main{
     margin-left: 5%;
     width: 40%;
 }
+.arrow5{
+    position: absolute;
+    width: 10em;
+    top: 14em;
+    left: 43%;
+}
 .main5-grid{
     width: 90%;
-    margin: auto;
+    margin: 7em auto 0 auto;
     display: grid;
     grid-template-areas: 
     'a b c'
@@ -475,9 +482,14 @@ main{
 }
 .main5-grid div{
     background-color: white;
-    width: 25em;
-    border-radius: 50px;
-    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+}
+.main5-grid div h2{
+    font-size: 20px;
+    color: #1b1a20;
+    margin: 2em 0 0 2em;
 }
 .main5-grid .g1{
     grid-area: a;
