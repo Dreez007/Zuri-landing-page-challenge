@@ -452,3 +452,48 @@ main{
     display: flex;
     flex-direction: column;
 }
+.main5-p{
+    color: #e7332b;
+    font-size: 24px;
+    margin: 3em 0 0 5%;
+}
+.main5-h1{
+    color: #1b1a20;
+    font-size: 40px;
+    margin-left: 5%;
+    width: 40%;
+}
+.main5-grid{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    'a b c'
+    'd e f'
+    ;
+    gap: 30px;
+}
+.main5-grid div{
+    background-color: white;
+    width: 25em;
+    border-radius: 50px;
+    box-shadow: 0px 11px 22px 0px rgba(231, 51, 43, 0.1);
+}
+.main5-grid .g1{
+    grid-area: a;
+}
+.main5-grid .g2{
+    grid-area: b;
+}
+.main5-grid .g3{
+    grid-area: c;
+}
+.main5-grid .g4{
+    grid-area: d;
+}
+.main5-grid .g5{
+    grid-area: e;
+}
+.main5-grid .g6{
+    grid-area: f;
+}
