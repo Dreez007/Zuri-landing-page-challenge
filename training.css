@@ -480,32 +480,92 @@ main{
     ;
     gap: 30px;
 }
-.main5-grid div{
-    background-color: white;
-    width: 24em;
-    border-radius: 41px;
-    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
-}
 .main5-grid div h2{
     font-size: 20px;
     color: #1b1a20;
     margin: 2em 0 0 2em;
 }
+.main5-grid div p{
+    color: #1b1a20;
+    margin: 3em 1.5em 0 2em;
+    line-height: 22px;
+}
+.main5-grid .img-div{
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+}
+.main5-grid .img-div .java{
+    width: 3em;
+}
+.main5-grid .img-div .fig{
+    width: 6em;
+}
+.main5-grid .img-div img{
+    margin-right: 1em;
+}
 .main5-grid .g1{
     grid-area: a;
+    background-color: white;
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    height: 21em;
+}
+.main5-grid .g1 img{
+    width: 2.4em;
 }
 .main5-grid .g2{
     grid-area: b;
+    background-color: white;
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    height: 21em;
+}
+.main5-grid .g2 img{
+    width: 3em;
 }
 .main5-grid .g3{
     grid-area: c;
+    background-color: white;
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    height: 21em;
+}
+.main5-grid .g3 img{
+    width: 3em;
 }
 .main5-grid .g4{
     grid-area: d;
+    background-color: white;
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    height: 21em;
+}
+.main5-grid .g4 img{
+    width: 5em;
 }
 .main5-grid .g5{
     grid-area: e;
+    background-color: white;
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    height: 21em;
+}
+.main5-grid .g5 img{
+    width: 2.5em;
 }
 .main5-grid .g6{
     grid-area: f;
+    background-color: white;
+    width: 24em;
+    border-radius: 41px;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    height: 21em;
+}
+.main5-grid .g6 img{
+    width: 5em;
 }
