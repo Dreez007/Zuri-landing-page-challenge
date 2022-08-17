@@ -569,3 +569,12 @@ main{
 .main5-grid .g6 img{
     width: 5em;
 }
+.main5 button{
+    background-color: #E7332B;
+    color: white;
+    margin: 4em auto 0 auto;
+    font-size: 18px;
+    border: 1px solid #E7332B;
+    border-radius: 20px;
+    padding: 10px 35px 10px 35px;
+}
