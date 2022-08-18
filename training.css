@@ -578,3 +578,72 @@ main{
     border-radius: 20px;
     padding: 10px 35px 10px 35px;
 }
+.main6{
+    width: 90%;
+    border-top: 1px solid #1b1a20;
+    border-bottom: 1px solid #1b1a20;
+    margin: 5em auto 0 auto;
+    position: relative;
+}
+.main6-wire{
+    position: absolute;
+    width: 8em;
+    top: 4em;
+    left: 10em;
+}
+.main6 .first-p{
+    font-size: 24px;
+    color: #e7332b;
+    text-align: center;
+    margin-top: 6em;
+}
+.main6 h1{
+    font-size: 40px;
+    color: #1b1a20;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.main6 .q-div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 5em;
+    border: 1px solid #0000ee;
+    margin: auto;
+}
+.main6 .q-div .question{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bolder;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+.main6 .q-div .plus{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+.main6 .tweet{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    margin: 5em auto 3em auto;
+}
+.main6 .tweet p{
+    font-size: 18px;
+    color: #333333;
+    margin: auto 0 auto 0;
+}
+.main6 .tweet button{
+    display: flex;
+    background-color: #e7332b;
+    border: 1px solid #e7332b;
+    border-radius: 30px;
+    padding: 5px 35px 5px 35px;
+    color: white;
+}
+.main6 .tweet button a{
+    margin: auto 0 auto auto;
+    font-size: 16px;
+}
