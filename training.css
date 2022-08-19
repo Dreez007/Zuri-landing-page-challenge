@@ -671,15 +671,39 @@ main{
 .main7-flex{
     display: flex;
     width: 85%;
-    margin: auto;
+    margin: 4em auto 0 auto;
     justify-content: space-between;
 }
 .main7-flex div{
     background-color: #1b1a20;
     color: white;
     width: 34em;
-    border-radius: 50px;
+    border-radius: 60px;
+    height: 45em;
+}
+.main7-flex div h1{
+    margin: 2em 0 0 1.5em;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.main7-flex div .div-p{
+    margin: 1em 0 0 3em;
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 70%;
+}
+.main7-flex div p{
+    margin-left: 3em;
+    line-height: 25px;
+}
+.main7-flex div h4{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 1em 0 0 2.8em;
 }
 .main7-flex div li{
-    list-style-type: disc;
+    font-size: 16px;
+    margin-left: 4em;
+    width: 70%;
+    line-height: 22.4px;
 }
