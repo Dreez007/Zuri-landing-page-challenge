@@ -647,3 +647,39 @@ main{
     margin: auto 0 auto auto;
     font-size: 16px;
 }
+/* .main7{
+
+} */
+.main7 .first-p{
+    color: #e7332b;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 7em;
+}
+.main7 .first-h1{
+    color: #1b1a20;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.main7 .second-p{
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1em;
+}
+.main7-flex{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.main7-flex div{
+    background-color: #1b1a20;
+    color: white;
+    width: 34em;
+    border-radius: 50px;
+}
+.main7-flex div li{
+    list-style-type: disc;
+}
