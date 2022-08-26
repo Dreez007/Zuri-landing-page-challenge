@@ -8,60 +8,60 @@
     box-sizing: border-box;
     font-family: 'Averta', sans-serif;
 }
+body, html{
+    background-color: #fffdf5;
+}
+a, button{
+    cursor: pointer;
+}
 header{
-    background-color: #fffdf5;
-    z-index: 3;
     width: 100%;
-}
-body{
+    overflow-x: hidden;
     background-color: #fffdf5;
-}
-.header-container{
-    width: 100%;
-    display: flex;
-    background-color: #fffdf5;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 3;
+    
 }
-.header-container a{
-    text-decoration: none;
-    font-size: 19px;
-}
-.header-container .logo{
-    margin: auto 0 auto 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.header-container .links{
-    margin: auto 0 auto 2em;
-}
-.header-container .links a{
-    margin-left: 50px;
-    color: #514949;
-}
-.header-container .enroll{
-    margin: auto 5% auto 0;
+.header{
+    width: 90%;
+    margin: 1.7em auto;
     display: flex;
-    width: 13.5em;
+    justify-content: space-between;
+    position: relative;
 }
-.header-container .enroll img{
-    position: absolute;
-    z-index: 1;
-    top: 6px;
-    right: 13em;
-    width: 70px;
-    background-color: #E7332B;
-    border-radius: 50%;
-    padding: 10px;
+header .links{
+    display: flex;
+    font-size: 18px;
+    color: #585757;
 }
-.header-container .enroll a{
-    margin: auto 0 auto auto;
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 5em;
+}
+header li{
+    margin-right: 2em;
+}
+nav{
+    margin: auto;
+}
+header button{
+    font-size: 18px;
+    background-color: #e7332b;
     color: white;
-    background-color: #E7332B;
-    padding: 10px 40px 10px 40px;
-    border-radius: 30px;
+    border: 1px solid #e7332b;
+    border-radius: 20px;
+    padding: 10px 35px 10px 45px;
+}
+header .thumb{
+    position: absolute;
+    bottom: -12px;
+    right: 7em;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #e7332b;
+    width: 4em;
 }
 main{
     width: 100%;
@@ -850,4 +850,7 @@ footer{
     text-decoration: none;
     color: #1b1a20;
     font-size: 16px;
+}
+@media (max-width:1200px) {
+    
 }
